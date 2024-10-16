@@ -16,6 +16,7 @@
 
 #Pronto - Ambiente pronto para usar pip install
 
-
+#Para salvar novas dependências do projeto:
+    pip freeze > requirements.tx
 #Para Instalar as dependências do projeto:
     pip install -r requirements.txt
