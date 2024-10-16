@@ -1,0 +1,9 @@
+Ativar Ambiente Virtual do Python para utilizar o pip install
+
+Linux
+source venv/bin/activate
+
+
+Windows
+.\venv\Scripts\activate
+
