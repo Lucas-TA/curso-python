@@ -1,9 +1,21 @@
-Ativar Ambiente Virtual do Python para utilizar o pip install
-
-Linux
-source venv/bin/activate
+#Ativar Ambiente Virtual do Python para utilizar o pip install
 
 
-Windows
-.\venv\Scripts\activate
+#Passo 1 - Ative um ambiente virtual
+    python3 -m venv venv
 
+#Rode o seguinte comando:
+    #Linux
+    source venv/bin/activate
+
+
+    #Windows
+    .\venv\Scripts\activate
+    #or (if using Git bash)
+    source venv/Scripts/activate
+
+#Pronto - Ambiente pronto para usar pip install
+
+
+#Para Instalar as dependências do projeto:
+    pip install -r requirements.txt
